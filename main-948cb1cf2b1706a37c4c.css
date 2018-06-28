@@ -1,0 +1,157 @@
+
+*{
+    margin:0;
+    padding:0;
+    user-select: none;
+}
+.clearfix{
+    zoom:1;
+}
+.clearfix:after{
+    clear:both;
+    overflow:hidden;
+}
+.clearfix:after,.clearfix:before{
+    content:"";
+    display:table;
+}
+main{
+    display:block;
+    width:1160px;
+    position:absolute;
+    height:688px;
+    /* left:0; right:0; top:0; bottom:0; margin:auto; */
+}
+main{
+    margin:40px;
+}
+
+/*====================================*/
+
+.column-explorer{
+    margin-bottom:70px;
+}
+.columns-box ul{
+    list-style:none;
+}
+.columns-box li{
+    list-style:none;
+}
+
+
+/* =========================================================== */
+.column-ranking-module{
+    border:1px solid #ccc;
+    padding:20px 10px;
+    width:260px;
+    float:left;
+    /* background-color: #80ff80; */
+    position:relative;
+}
+
+.column-ranking-module:after{
+    /* 防止:hover引起的形变触发抽搐 */
+    content:"";
+    display:block;
+    width:100%;
+    height:34px;
+    position:absolute;
+    top:345px;
+    left:0;
+    background-color:transparent;
+}
+.column-ranking-head{
+    height:24px;
+}
+.column-ranking-list{
+    padding-top:20px;
+}
+.column-ranking-item{
+    text-decoration:none;
+    padding-left:25px;
+    width:235px;
+    position:relative;
+    display:block;
+    padding-bottom:20px;
+}
+.column-ranking-head-text{
+    font-size:18px;
+    font-weight:400;
+}
+.column-ranking-item-index{
+    background-color: rgba(211, 54, 130, 1);
+    padding: 0 3px;
+    font-weight:bolder;
+    color: rgba(253, 246, 227, 1);
+    border-radius: 4px;
+    min-width: 12px;
+    font-size: 12px;
+    text-align: center;
+    height: 18px;
+    line-height: 18px;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.column-ranking-item-cover{
+    transition:all 0.2s linear;
+    width:0;
+    height:0;
+    float:left;
+    margin-right:5px;
+    border-radius: 4px;
+}
+.column-ranking-item:hover
+.column-ranking-item-cover{
+    width:86px;
+    height:54px;
+}
+.column-ranking-item-title{
+    height:18px;
+    color:rgba(0, 43, 54, 1);
+    font-size:12px;
+    overflow:hidden;
+    line-height: 18px;
+    word-wrap:break-word;
+    word-break:break-all;
+}
+.column-ranking-item:hover
+.column-ranking-item-title{
+    color: rgba(38, 139, 210, 1);
+}
+.column-ranking-item:hover
+.column-ranking-item-title{
+    height:54px;
+}
+.column-ranking-item-1st
+.column-ranking-item-cover{
+    width:86px;
+    height:54px;
+}
+.column-ranking-list:hover
+.column-ranking-item-1st
+.column-ranking-item-cover{
+    width:0;
+    height:0;
+}
+.column-ranking-list:hover
+.column-ranking-item-1st:hover
+.column-ranking-item-cover{
+    width:86px;
+    height:54px;
+}
+.column-ranking-item-1st
+.column-ranking-item-title{
+    height:54px;
+}
+.column-ranking-list:hover
+.column-ranking-item-1st
+.column-ranking-item-title{
+    height:18px;
+}
+.column-ranking-list:hover
+.column-ranking-item-1st:hover
+.column-ranking-item-title{
+    height:54px;
+}
+/* ====================================================== */
